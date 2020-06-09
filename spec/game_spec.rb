@@ -35,7 +35,7 @@ describe 'A game of tic tac toe' do
   }
 
 
-  it 'exists' do skip
+  it 'exists' do
     Game.new
   end
 

@@ -10,4 +10,8 @@ class Game
 		return @board
 	end
 
+	def over?
+
+	end
+
 end
