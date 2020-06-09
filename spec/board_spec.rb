@@ -10,4 +10,9 @@ describe 'A Tic Tac Toe board' do
   	Board.new
   end
 
+  it 'is an empty board' do
+  	board = Board.new
+  	expect(board.empty?).to be_truthy
+  end
+
 end
