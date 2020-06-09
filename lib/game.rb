@@ -15,4 +15,8 @@ class Game
 		return @over
 	end
 
+	def winner
+		
+	end
+
 end
