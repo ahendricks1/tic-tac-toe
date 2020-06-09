@@ -27,4 +27,10 @@ describe 'A Tic Tac Toe board' do
   	expect(board.token_at(:top, :middle)).to eq('x')
   end
 
+  it 'can place a token' do
+  	board = Board.new
+  	board.place('x', :top, :middle)
+  	expect(board.empty?).to be_falsy
+  end
+
 end
