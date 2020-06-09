@@ -15,4 +15,10 @@ describe 'A Tic Tac Toe board' do
   	expect(board.empty?).to be_truthy
   end
 
+  it 'resets the board' do
+  	board = Board.new
+  	board.reset
+  	expect(board.empty?).to be_truthy
+  end
+
 end
