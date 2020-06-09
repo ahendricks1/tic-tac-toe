@@ -6,4 +6,8 @@ describe 'A Tic Tac Toe board' do
     fail 'See spec/board_spec.rb'
   end
 
+  it 'exists' do
+  	Board.new
+  end
+
 end
