@@ -21,4 +21,10 @@ describe 'A Tic Tac Toe board' do
   	expect(board.empty?).to be_truthy
   end
 
+  it 'has a token at a specific location' do
+  	board = Board.new
+  	board.place('x', :top, :middle)
+  	expect(board.token_at(:top, :middle)).to eq('x')
+  end
+
 end
